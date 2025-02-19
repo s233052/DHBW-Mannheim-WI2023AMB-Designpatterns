@@ -11,6 +11,7 @@ public class Main {
                 .build();
 
         System.out.println(simpleHouse);
+        System.out.println("Test");
 
         House luxuryHouse = new HouseBuilder(5)
                 .setWindows(20)
